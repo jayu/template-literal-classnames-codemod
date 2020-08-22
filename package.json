@@ -8,5 +8,8 @@
   "devDependencies": {
     "jest": "^26.4.1",
     "jscodeshift": "^0.10.0"
+  },
+  "scripts": {
+    "test": "yarn jest"
   }
 }
