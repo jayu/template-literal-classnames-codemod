@@ -1,6 +1,8 @@
-# Template Literal to `classnames` transform
+# Template Literal to `classnames` `jscodeshift` transform
 
 ## How to use
+
+Clone this repo into your project
 
 ### prerequisites
 

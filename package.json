@@ -1,5 +1,5 @@
 {
-  "name": "template-string-classnames",
+  "name": "template-literal-classnames",
   "version": "0.1.0",
   "description": "A jscodeshift codemod to transform Template Literals to classnames utility",
   "main": "transform.js",
