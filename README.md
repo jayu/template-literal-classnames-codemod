@@ -27,7 +27,7 @@ to
 import React from "react";
 import cx from "classnames";
 
-export default function Component({ cond }) {
+export default function Component({ cond, cond2 }) {
   const someClass = "someClass";
 
   return (
@@ -97,7 +97,7 @@ To:
 
 **usage**
 
-`npx jscodeshift -t template-literal-classnames-codemod/transform.js logicalExp=true ./src`
+`npx jscodeshift -t template-literal-classnames-codemod/transform.js --logicalExp=true ./src`
 
 #### `conditionalExp`
 
@@ -125,7 +125,7 @@ To:
 
 **usage**
 
-`npx jscodeshift -t template-literal-classnames-codemod/transform.js conditionalExp=true ./src`
+`npx jscodeshift -t template-literal-classnames-codemod/transform.js --conditionalExp=true ./src`
 
 #### `falsyConditionalExp`
 
@@ -151,7 +151,7 @@ To:
 
 **usage**
 
-`npx jscodeshift -t template-literal-classnames-codemod/transform.js falsyConditionalExp=true ./src`
+`npx jscodeshift -t template-literal-classnames-codemod/transform.js --falsyConditionalExp=true ./src`
 
 #### `classAttrName`
 
@@ -159,4 +159,4 @@ You can provide JSX attribute names that also contain class names. Coma separate
 
 **usage**
 
-`npx jscodeshift -t template-literal-classnames-codemod/transform.js classAttrName=customClassName ./src`
+`npx jscodeshift -t template-literal-classnames-codemod/transform.js --classAttrName=customClassName ./src`
